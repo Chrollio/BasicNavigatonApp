@@ -47,6 +47,7 @@ const LoginScreen = ({ navigation }) => {
           style={loginstyle.textinput}
           onChangeText={setPassword}
           placeholder="Password"
+          secureTextEntry={true}
           placeholderTextColor="black"
         />
 
@@ -61,9 +62,9 @@ const LoginScreen = ({ navigation }) => {
           <TouchableOpacity onPress={() => navigation.navigate("RegisterAdminScreen")} style={{ marginTop: 10 }}> 
             <Text style={{ color: "black", fontWeight: "bold" }}>Register as Admin</Text>
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => navigation.navigate("HomePageScreen")} style={{ marginTop: 10 }}> 
+          {/* <TouchableOpacity onPress={() => navigation.navigate("HomePageScreen")} style={{ marginTop: 10 }}> 
             <Text style={{ color: "black", fontWeight: "bold" }}>Back to Home</Text>
-          </TouchableOpacity>
+          </TouchableOpacity> */}
         </View>
       </View>
     </View>

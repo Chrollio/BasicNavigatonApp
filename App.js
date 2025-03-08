@@ -18,7 +18,7 @@ const App = () => {
       <GestureHandlerRootView style={{ flex: 1 }}>
         <NavigationContainer>
           <Stack.Navigator
-            initialRouteName="HomePageScreen"
+            initialRouteName="LoginScreen"
             screenOptions={{ headerShown: false }}
           >
             <Stack.Screen name="HomePageScreen" component={HomePageScreen} />

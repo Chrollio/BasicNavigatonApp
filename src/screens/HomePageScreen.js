@@ -34,9 +34,9 @@ function HomePageScreen({ route, navigation }) {
                     This is the homepage!
                 </Text>
 
-                <View style={{ marginBottom: 15 }}>
+                {/* <View style={{ marginBottom: 15 }}>
                     <Button title="Go to Login" onPress={() => navigation.navigate("LoginScreen")} />
-                </View>
+                </View> */}
 
                 <View style={{ marginBottom: 15 }}>
                     <Button title="Go to Register" onPress={() => navigation.navigate("RegisterScreen")} />
